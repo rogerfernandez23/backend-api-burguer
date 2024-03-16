@@ -27,6 +27,7 @@ const method = (request, response, next) => {
 }
 
 const port = process.env.PORT || 3001;
+
 app.listen(port, () => {
     console.log(`Server starded on port ${port}`);
 });
